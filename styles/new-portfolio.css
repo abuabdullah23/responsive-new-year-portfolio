@@ -1,0 +1,437 @@
+* {
+    font-family: 'Work Sans', sans-serif;
+    margin: 0px;
+}
+
+header {
+    background-image: url(../images/banner/banner3.png);
+    height: 800px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.header-class{
+    justify-content: center;
+    align-items: center;
+}
+
+
+.btn-primary {
+    color: #005FAC;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 20px 20px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+
+p {
+    padding: 10px 0px;
+}
+
+h3 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+h4 {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+
+
+
+/* header section styles */
+.banner-section {
+    text-align: right;
+    padding: 300px 150px 0px 0px;
+}
+
+.banner-title {
+    color: white;
+    font-weight: 800;
+    font-size: 42px;
+}
+
+.banner-description {
+    color: white;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 10px 0px 10px 600px;
+}
+
+
+/* objective section Styles */
+.objective-section {
+    display: flex;
+    gap: 40px;
+    margin: 200px 150px 100px 150px;
+    align-items: center;
+}
+
+.my-images {
+    height: 512px;
+}
+
+.objective-details {
+    padding: 10px, 20px;
+}
+
+.objective-title {
+    color: #151414;
+    text-align: left;
+    font-weight: 800;
+    font-size: 26px;
+}
+
+
+.fa-solid fa-circle-check {
+    color: #00ffdd;
+}
+
+
+
+/* skill section styles */
+.my-skill-section{
+    margin: 50px 100px;
+}
+.skill-top-title {
+    font-weight: 900;
+    font-size: 32px;
+    color: #151414;
+    text-align: center;
+}
+
+.skill-image {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+
+.skill {
+    width: 100%;
+}
+
+
+.skill-details {
+    display: flex;
+    gap: 50px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+    align-items: last baseline;
+}
+
+.skill-title {
+    color: #151414;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.skill-description {
+    color: #737272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/* .skill-percent{
+    display: contents;
+    gap: 20px;
+    align-items: center;
+
+} */
+
+.skill-btn-bg {
+    width: 100%;
+    background-color: #92caff;
+    text-align: left;
+    border-radius: 0px;
+    border: none;
+}
+
+
+.btn-percent-85 {
+    background-color: #005FAC;
+    width: 85%;
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.btn-percent-90 {
+    background-color: #005FAC;
+    width: 90%;
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+.btn-percent-75 {
+    background-color: #005FAC;
+    width: 75%;
+    border-radius: 0px;
+    border: none;
+    text-align: center;
+    padding: 5px 10px;
+    font-weight: 600;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+
+
+/* Plan section styles */
+.plan-top-title {
+    font-weight: 900;
+    font-size: 32px;
+    margin: 200px 100px 25px 100px;
+    color: #151414;
+    text-align: center;
+}
+
+.plan-image {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.plan-details {
+    align-items: center;
+    display: flex;
+    gap: 20px;
+    text-align: center;
+    justify-content: space-between;
+    margin: 50px 250px;
+}
+
+.plan-title {
+    color: #151414;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.plan-description {
+    color: #737272;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+
+
+
+/* Call now Section Style */
+.call-now-section {
+    background-image: url(../images/watch.png);
+    background-blend-mode: normal;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    background-size: contain;
+    color: #FFFFFF;
+    margin: 50px 130px 50px 130px;
+    align-items: center;
+}
+
+.gradient {
+    background-image: url(../images/gradient1.png);
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 50vh;
+    background-size: contain;
+}
+
+.call-now-details {
+    padding: 11%;
+}
+
+
+
+
+
+/* Footer Section Style */
+footer {
+    background-color: #151414;
+    padding: 100px 100px;
+}
+
+
+.footer-section {
+    display: flex;
+    gap: 10px;
+    text-align: left;
+    margin-right: 20px;
+}
+
+.footer-left{
+    margin-right: 200px;
+}
+
+.footer-right {
+    text-align: left;
+}
+
+
+.para-footer {
+    color: #FFFFFF;
+    margin-right: 50px
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+social-icon {
+    display: flex;
+    gap: 20px;
+    text-align: left;
+}
+
+.img-icon {
+    width: 32px;
+    margin: 10px 20px 0px 0px;
+    text-align: left;
+}
+
+.ed-mail {
+    color: #FFFFFF;
+    background: none;
+    border: 1px solid #FFFFFF;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.btn-secondary {
+    color: white;
+    background: #005FAC;
+    padding: 15px 20px;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+
+/* For Responsive */
+/* Small Device */
+@media screen and (max-width:576px) {
+    header{
+        background-color: #005FAC;
+    }
+    .banner-section{
+        padding: 10px 20px;   
+    }
+    .banner-description {
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .objective-section{
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    .my-skill-section{
+        margin: 10px 20px;
+    }
+    .skill-details{
+        flex-direction: column;
+        margin: 5px 0px;
+    }
+
+    .plan-details{
+        flex-direction: column;
+        margin: 10px, 20px;
+    } 
+
+    footer{
+        padding: 10px;
+    }
+    .footer-section {
+        flex-direction: column;
+        margin: 10px 20px;
+    }
+    .footer-left{
+        margin: 0px;
+    }
+    
+}
+
+/* Medium Device */
+@media screen and (min-width:577px) and (max-width: 992px) {
+    .banner-section{
+        padding: 100px 100px; 
+    }
+    .banner-description {
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 10px 20px;
+    }  
+    
+    .objective-section{
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    .objective-details{
+        margin: 10px, 30px;
+    }
+    .my-skill-section{
+        margin: 10px 20px;
+    }
+    .skill-details{
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    .plan-details{
+        flex-direction: column;
+        margin: 20px, 3px;
+    }
+    footer{
+        padding: 10px;
+    }
+    .footer-section {
+        flex-direction: column;
+        margin: 20px 30px;
+    }
+    .footer-left{
+        margin: 0px;
+    }
+}
+
+/* Large Device */
+@media screen and (min-width:993px) and (max-width:1400px) {
+    .banner-section{
+        padding: 200px 200px 0 0;
+    }
+    .banner-description {
+        color: white;
+        font-weight: 400;
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+}
+
+
+
+
+
+
+
